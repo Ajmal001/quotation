@@ -1,0 +1,267 @@
+.k-color-primary {
+  color: #323232; }
+
+.k-bg-color-primary {
+  background-color: #323232; }
+
+.k-color-secondary {
+  color: #3ba1ae; }
+
+.k-bg-color-secondary {
+  background-color: #3ba1ae; }
+
+.k-color-inverse {
+  color: #FFF; }
+
+.k-bg-color-inverse {
+  background-color: #FFF; }
+
+.k-color-success {
+  color: #BFF07A; }
+
+.k-bg-color-success {
+  background-color: #BFF07A; }
+
+.k-color-info {
+  color: #594A62; }
+
+.k-bg-color-info {
+  background-color: #594A62; }
+
+.k-color-warning {
+  color: #FDF992; }
+
+.k-bg-color-warning {
+  background-color: #FDF992; }
+
+.k-color-danger {
+  color: #D17481; }
+
+.k-bg-color-danger {
+  background-color: #D17481; }
+
+.k-gray-base {
+  color: black; }
+
+.k-bg-gray-base {
+  background-color: black; }
+
+.k-gray-darker {
+  color: #262626; }
+
+.k-bg-gray-darker {
+  background-color: #262626; }
+
+.k-gray-dark {
+  color: #595959; }
+
+.k-bg-gray-dark {
+  background-color: #595959; }
+
+.k-gray-regular {
+  color: gray; }
+
+.k-bg-gray-regular {
+  background-color: gray; }
+
+.k-gray-light {
+  color: #a6a6a6; }
+
+.k-bg-gray-light {
+  background-color: #a6a6a6; }
+
+.k-gray-lighter {
+  color: #d9d9d9; }
+
+.k-bg-gray-lighter {
+  background-color: #d9d9d9; }
+
+.k-gray-ghost {
+  color: #e6e6e6; }
+
+.k-bg-gray-ghost {
+  background-color: #e6e6e6; }
+
+.k-vs-50p {
+  margin-bottom: 50px; }
+
+.k-vs-25p {
+  margin-bottom: 25px; }
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  background-color: #ffffff;
+  font-weight: 300;
+  word-break: break-word;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased; }
+
+ul.k-list, ol.k-list {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+h1, h2, h3, h4, h5, h6, p, figure, ul, li {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+  color: #323232; }
+  h1::first-letter, h2::first-letter, h3::first-letter, h4::first-letter, h5::first-letter, h6::first-letter {
+    color: #3ba1ae; }
+
+h1, h2, h3 {
+  margin-top: 16px;
+  margin-bottom: 16px; }
+
+ul {
+  padding-left: 25px; }
+
+a {
+  color: #3ba1ae;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  text-decoration: none; }
+  a:hover {
+    color: #2e7e88; }
+
+p {
+  color: #262626;
+  line-height: 1.5; }
+
+table {
+  text-align: center;
+  width: 100%; }
+  table tr th {
+    padding: 4px 0;
+    color: #323232;
+    font-weight: 600; }
+  table tr td {
+    padding: 4px 0; }
+
+.j-img-absolute {
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0; }
+
+img {
+  max-width: 100%; }
+
+.title-toggle {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer; }
+  .title-toggle:hover svg {
+    opacity: 9; }
+  .title-toggle h3 {
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out; }
+    .title-toggle h3:hover {
+      color: darken #323232, 10; }
+  .title-toggle svg {
+    opacity: .7;
+    max-height: 20px;
+    width: 40px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    -webkit-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out; }
+  .title-toggle .rotate-180 {
+    -ms-transform: rotate(180deg);
+    /* IE 9 */
+    -webkit-transform: rotate(180deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(180deg); }
+
+#bodyTogglePagoDiferido {
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out; }
+
+#bodyToggleCalendarioPagos {
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out; }
+
+.j-btn {
+  width: 100%;
+  line-height: 1;
+  padding-top: 16px;
+  padding-bottom: 15px;
+  background-color: #3ba1ae;
+  color: #FFF;
+  border: none;
+  border-radius: 4px;
+  font-weight: 800;
+  font-size: 24px;
+  text-transform: uppercase;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  .j-btn:hover, .j-btn:active, .j-btn:focus, .j-btn:visited {
+    background-color: #2e7e88; }
+  .j-btn:active, .j-btn:focus {
+    outline: none; }
+
+.j-workspace {
+  box-sizing: border-box; }
+  .j-workspace .j-wrap {
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+    display: flex;
+    max-width: 1232px; }
+  .j-workspace .grid .unit {
+    transition: width 200ms ease-in-out; }
+    .j-workspace .grid .unit:first-of-type {
+      padding-left: 0; }
+    .j-workspace .grid .unit:last-of-type {
+      padding-right: 0; }
+
+.quotation-view {
+  margin-top: 48px;
+  margin-bottom: 48px; }
+  @media screen and (max-width: 768px) {
+    .quotation-view .j-wrap {
+      flex-direction: column; } }
+  .quotation-view-left {
+    width: 70%;
+    padding-right: 16px; }
+    @media screen and (max-width: 768px) {
+      .quotation-view-left {
+        width: 100%;
+        padding: 0; } }
+  .quotation-view-right {
+    width: 30%;
+    padding-left: 16px; }
+    @media screen and (max-width: 768px) {
+      .quotation-view-right {
+        width: 100%;
+        padding: 0; } }
+  .quotation-view .price {
+    color: #3ba1ae;
+    font-weight: 600; }
+  .quotation-view .jems-logo {
+    max-height: 90px; }
+  .quotation-view .suport-links p {
+    margin-top: 8px;
+    margin-bottom: 8px; }
+
+/*# sourceMappingURL=main.css.map */

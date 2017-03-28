@@ -1,0 +1,38 @@
+.quotation-view {
+  margin-top: 48px;
+  margin-bottom: 48px;
+  .j-wrap {
+    @media screen and(max-width: 768px){
+      flex-direction: column;
+    }
+  }
+  &-left {
+    width: 70%;
+    padding-right: 16px;
+    @media screen and(max-width: 768px){
+      width: 100%;
+      padding: 0;
+    }
+  }
+  &-right {
+    width: 30%;
+    padding-left: 16px;
+    @media screen and(max-width: 768px){
+      width: 100%;
+      padding: 0;
+    }
+  }
+  .price {
+    color: $color-secondary;
+    font-weight: 600;
+  }
+  .jems-logo {
+    max-height: 90px;
+  }
+  .suport-links {
+    p {
+      margin-top: 8px;
+      margin-bottom: 8px;
+    }
+  }
+}

@@ -1,0 +1,130 @@
+// Default Generales
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: 1;
+  background-color: $body-bg-color;
+  font-weight: 300;
+  word-break: break-word;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+}
+
+ul, ol {
+    &.k-list {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+}
+
+h1, h2, h3, h4, h5, h6, p, figure, ul, li {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: $headings-font-family;
+  color: $color-primary;
+  &::first-letter {
+    color: $color-secondary;
+  }
+}
+h1,h2,h3 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+ul {
+  padding-left: 25px;
+}
+a {
+  color: $color-secondary;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  text-decoration: none;
+  &:hover {
+    color: darken($color-secondary, 10);
+  }
+}
+p {
+    color: $gray-darker;
+    line-height: 24px / $font-size-base;
+}
+table {
+  text-align: center;
+  width: 100%;
+  tr {
+    th {
+      padding: 4px 0;
+      color: $color-primary;
+      font-weight: 600;
+    }
+    td {
+      padding: 4px 0;
+    }
+  }
+}
+// Helper Classes
+.j-img-absolute {
+      display: block;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      right: 0; 
+      margin: auto;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+img {
+    max-width: 100%; // Hacer todas las img responsive.
+}
+.title-toggle {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  &:hover {
+    svg {
+      opacity: 9;
+    }
+  }
+  h3 {
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    &:hover {
+      color: darken ($color-primary, 10);
+    }
+  }
+  svg{
+    opacity: .7;
+    max-height: 20px;
+    width: 40px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    -webkit-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+  }
+  .rotate-180 {
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+  }
+}
+//Styles for toggles
+#bodyTogglePagoDiferido {
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+}
+#bodyToggleCalendarioPagos {
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+}
