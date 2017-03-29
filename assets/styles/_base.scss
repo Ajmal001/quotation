@@ -37,6 +37,9 @@ h1,h2,h3 {
 }
 ul {
   padding-left: 25px;
+  li>ul>li {
+    margin-top: 16px;
+  }
 }
 a {
   color: $color-secondary;

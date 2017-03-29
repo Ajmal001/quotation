@@ -35,4 +35,40 @@
       margin-bottom: 8px;
     }
   }
+  //Maker
+  &-maker {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+    &-step {
+      margin-top: 8px;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+    }
+    &-step--vert {
+      margin-top: 8px;
+      margin-bottom: 8px;
+      display: flex;
+      flex-direction: column;
+    }
+    &-left {
+      width: 70%;
+      padding-right: 16px;
+      @media screen and(max-width: 768px){
+        width: 100%;
+        padding: 0;
+      }
+    }
+    &-right {
+      width: 30%;
+      padding-left: 16px;
+      @media screen and(max-width: 768px){
+        width: 100%;
+        padding: 0;
+      }
+    }
+  }
 }

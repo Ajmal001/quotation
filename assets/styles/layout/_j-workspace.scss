@@ -10,6 +10,14 @@
     display: flex;
     max-width: $max-width-screen;
   }
+  .j-wrap-80 {
+    margin: 0 auto; 
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+    display: flex;
+    max-width: $max-width-screen * .8;
+  }
   .grid {
     .unit {
       transition: width 200ms ease-in-out;

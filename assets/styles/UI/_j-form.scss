@@ -1,0 +1,41 @@
+.input-plus {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+  padding-left: 25px;
+  svg {
+    margin-right: 8px;
+    width: 15px;
+  }
+}
+
+input[type=text], select {
+  min-width: 160px;
+  background-color: transparent;
+  padding-top: 2px;
+  margin: 0 8px;
+  border: none;
+  border-bottom: solid 2px $color-primary;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  color: $color-primary;
+  -webkit-transition: border-color 400ms ease-in-out;
+  transition: border-color 400ms ease-in-out;
+  &:focus {
+    outline: none;
+  }
+  &:active, &:focus, &:visited {
+    border-bottom-color: $color-inverse;
+  }
+}
+select {
+  border: none;
+  &:focus {
+    outline: none;
+  }
+  &:active, &:focus, &:visited {
+    border-bottom-color: $color-inverse;
+  }
+}
