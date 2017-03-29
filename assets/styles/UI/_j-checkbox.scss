@@ -1,0 +1,83 @@
+.ac-custom ul,
+.ac-custom ol {
+  list-style: none;
+}
+
+.ac-custom li {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.ac-custom label {
+  display: inline-block;
+  position: relative;
+  font-size: 24px;
+  padding: 0 0 0 32px;
+  vertical-align: top;
+  color: $color-primary;
+  cursor: pointer;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.ac-custom input[type="checkbox"],
+.ac-custom label::before {
+  width: 16px;
+  height: 16px;
+  margin-top: 2px;
+  left: 0;
+  position: absolute;
+  cursor: pointer;
+}
+
+.ac-custom input[type="checkbox"],
+.ac-custom input[type="radio"] {
+  opacity: 0;
+  -webkit-appearance: none;
+  display: inline-block;
+  vertical-align: middle;
+  z-index: 100;
+}
+
+.ac-custom label::before {
+  content: '';
+  border: 2px solid $color-secondary;
+  border-radius: 2px;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+.ac-radio label::before {
+  border-radius: 50%;
+}
+
+.ac-custom input[type="checkbox"]:checked + label,
+.ac-custom input[type="radio"]:checked + label {
+  color: $color-primary;
+  opacity: 0.8;
+}
+
+.ac-custom input[type="checkbox"]:checked + label::before,
+.ac-custom input[type="radio"]:checked + label::before {
+  opacity: 1;
+}
+
+/* General SVG and path styles */
+
+.ac-custom svg {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  padding-left: 4px;
+  pointer-events: none;
+}
+
+.ac-custom svg path {
+  stroke: $color-secondary;
+  stroke-width: 13px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}

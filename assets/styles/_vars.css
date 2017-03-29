@@ -1,0 +1,121 @@
+/* line 4, /Users/ErickLeos/Downloads/Cotizador/assets/styles/_vars.scss */
+.k-color-primary {
+  color: #323232; }
+
+/* line 4, /Users/ErickLeos/Downloads/Cotizador/assets/styles/_vars.scss */
+.k-bg-color-primary {
+  background-color: #323232; }
+
+/* line 5, /Users/ErickLeos/Downloads/Cotizador/assets/styles/_vars.scss */
+.k-color-secondary {
+  color: #3ba1ae; }
+
+/* line 5, /Users/ErickLeos/Downloads/Cotizador/assets/styles/_vars.scss */
+.k-bg-color-secondary {
+  background-color: #3ba1ae; }
+
+/* line 6, /Users/ErickLeos/Downloads/Cotizador/assets/styles/_vars.scss */
+.k-color-inverse {
+  color: #FFF; }
+
+/* line 6, /Users/ErickLeos/Downloads/Cotizador/assets/styles/_vars.scss */
+.k-bg-color-inverse {
+  background-color: #FFF; }
+
+/* line 7, /Users/ErickLeos/Downloads/Cotizador/assets/styles/_vars.scss */
+.k-color-success {
+  color: #BFF07A; }
+
+/* line 7, /Users/ErickLeos/Downloads/Cotizador/assets/styles/_vars.scss */
+.k-bg-color-success {
+  background-color: #BFF07A; }
+
+/* line 8, /Users/ErickLeos/Downloads/Cotizador/assets/styles/_vars.scss */
+.k-color-info {
+  color: #594A62; }
+
+/* line 8, /Users/ErickLeos/Downloads/Cotizador/assets/styles/_vars.scss */
+.k-bg-color-info {
+  background-color: #594A62; }
+
+/* line 9, /Users/ErickLeos/Downloads/Cotizador/assets/styles/_vars.scss */
+.k-color-warning {
+  color: #FDF992; }
+
+/* line 9, /Users/ErickLeos/Downloads/Cotizador/assets/styles/_vars.scss */
+.k-bg-color-warning {
+  background-color: #FDF992; }
+
+/* line 10, /Users/ErickLeos/Downloads/Cotizador/assets/styles/_vars.scss */
+.k-color-danger {
+  color: #D17481; }
+
+/* line 10, /Users/ErickLeos/Downloads/Cotizador/assets/styles/_vars.scss */
+.k-bg-color-danger {
+  background-color: #D17481; }
+
+/* line 13, /Users/ErickLeos/Downloads/Cotizador/assets/styles/_vars.scss */
+.k-gray-base {
+  color: black; }
+
+/* line 13, /Users/ErickLeos/Downloads/Cotizador/assets/styles/_vars.scss */
+.k-bg-gray-base {
+  background-color: black; }
+
+/* line 14, /Users/ErickLeos/Downloads/Cotizador/assets/styles/_vars.scss */
+.k-gray-darker {
+  color: #262626; }
+
+/* line 14, /Users/ErickLeos/Downloads/Cotizador/assets/styles/_vars.scss */
+.k-bg-gray-darker {
+  background-color: #262626; }
+
+/* line 15, /Users/ErickLeos/Downloads/Cotizador/assets/styles/_vars.scss */
+.k-gray-dark {
+  color: #595959; }
+
+/* line 15, /Users/ErickLeos/Downloads/Cotizador/assets/styles/_vars.scss */
+.k-bg-gray-dark {
+  background-color: #595959; }
+
+/* line 16, /Users/ErickLeos/Downloads/Cotizador/assets/styles/_vars.scss */
+.k-gray-regular {
+  color: gray; }
+
+/* line 16, /Users/ErickLeos/Downloads/Cotizador/assets/styles/_vars.scss */
+.k-bg-gray-regular {
+  background-color: gray; }
+
+/* line 17, /Users/ErickLeos/Downloads/Cotizador/assets/styles/_vars.scss */
+.k-gray-light {
+  color: #a6a6a6; }
+
+/* line 17, /Users/ErickLeos/Downloads/Cotizador/assets/styles/_vars.scss */
+.k-bg-gray-light {
+  background-color: #a6a6a6; }
+
+/* line 18, /Users/ErickLeos/Downloads/Cotizador/assets/styles/_vars.scss */
+.k-gray-lighter {
+  color: #d9d9d9; }
+
+/* line 18, /Users/ErickLeos/Downloads/Cotizador/assets/styles/_vars.scss */
+.k-bg-gray-lighter {
+  background-color: #d9d9d9; }
+
+/* line 19, /Users/ErickLeos/Downloads/Cotizador/assets/styles/_vars.scss */
+.k-gray-ghost {
+  color: #e6e6e6; }
+
+/* line 19, /Users/ErickLeos/Downloads/Cotizador/assets/styles/_vars.scss */
+.k-bg-gray-ghost {
+  background-color: #e6e6e6; }
+
+/* line 27, /Users/ErickLeos/Downloads/Cotizador/assets/styles/_vars.scss */
+.k-vs-50p {
+  margin-bottom: 50px; }
+
+/* line 28, /Users/ErickLeos/Downloads/Cotizador/assets/styles/_vars.scss */
+.k-vs-25p {
+  margin-bottom: 25px; }
+
+/*# sourceMappingURL=_vars.css.map */
